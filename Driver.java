@@ -20,12 +20,12 @@ public class Driver {
 		 header.add("Type of Vehicle : ");
 		 header.add("Address : ");
 		 List<String> vehicle_data = new ArrayList<String>();
-			//vehicle_data.add("Sanket Gawande","2 wheeler", "MH30AR6534","7768901721", "Akola");
+			
 			vehicle_data.add("Sanket Gawande");
-			vehicle_data.add("7768901721");
-			vehicle_data.add("MH30AR6534");
+			vehicle_data.add("1234567890");
+			vehicle_data.add("MH12AR1234");
 			vehicle_data.add("2 Wheeler");
-			vehicle_data.add("Akola, Maharashtra");
+			vehicle_data.add("Pune, Maharashtra");
 			//System.out.println(vehicle_data);
 			
 			Scanner sc = new Scanner(System.in);
@@ -116,9 +116,6 @@ public class Driver {
 		String pass = sc.next();
 		
 		if(user.equals(username) && pass.equals(password)) {
-			
-			//bike_no = sc.next();
-			//VehicleData 
 			
 			d.VehicleInfo();
 			System.out.println("|  Chanal List   ");
